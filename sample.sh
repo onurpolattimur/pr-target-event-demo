@@ -4,3 +4,4 @@ echo "Mars" $MY_NAME
 echo "Space" $MY_NAME 
 echo "Venus" $MY_NAME 
 echo "Jupyter" $MY_NAME 
+echo "Hello from Jupyter" $MY_NAME 
