@@ -1,1 +1,1 @@
-echo "Hello Mars"
+echo "Hello" $MY_NAME 

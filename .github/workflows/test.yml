@@ -1,0 +1,23 @@
+name: Sample Tests
+
+on:
+  pull_request:
+    branches:
+      - "**"
+
+env:
+  CI: true
+
+jobs:
+  run:
+    name: Simple Shell Script Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Run script with
+        run: sh sample.sh
+        env:
+          MY_NAME: ${{secrets.MY_NAME}}
