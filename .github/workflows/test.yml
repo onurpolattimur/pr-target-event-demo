@@ -1,9 +1,8 @@
 name: Sample Tests
 
 on:
-  pull_request:
-    branches:
-      - "**"
+  pull_request_target
+
 
 env:
   CI: true
