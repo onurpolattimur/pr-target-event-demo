@@ -36,6 +36,9 @@ jobs:
           echo ${{ steps.commit.outputs.title}}    
           echo ${{ steps.commit.outputs.body}}   
 
+      - name: echo
+        run: echo 'onur'
+
       - name: Run script with
         run: sh sample.sh
         env:
